@@ -1,0 +1,6 @@
+error_log
+tc/error_log
+sc/error_log
+en/error_log
+.user.ini
+php.ini
