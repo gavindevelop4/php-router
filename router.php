@@ -1,7 +1,7 @@
 <?php
     $lang = explode("/",parse_url($_SERVER['REQUEST_URI'])["path"])[1];
     
-    $langArray = array("tc","en");
+    $langArray = array("tc","en"); // list of language
     $defaultLang = "en";
     if (!in_array($lang,$langArray)) {
         header('Location: /'.$defaultLang.'/');
